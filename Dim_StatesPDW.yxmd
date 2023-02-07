@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:Adventure|||select AdventureWorks2019.Person.StateProvince.StateProvinceID,
+	AdventureWorks2019.Person.StateProvince.StateProvinceCode,
+	AdventureWorks2019.Person.StateProvince.Name,
+	AdventureWorks2019.Person.StateProvince.TerritoryID,
+	AdventureWorks2019.Person.StateProvince.IsOnlyStateProvinceFlag 
+from AdventureWorks2019.Person.StateProvince</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Adventure
+Query=select AdventureWorks2019.Pe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StateProvinceID" source="File: aka:Adventure|||select AdventureWorks2019.Person.StateProvince.StateProvinceID,&#xA;	AdventureWorks2019.Person.StateProvince.StateProvinceCode,&#xA;	AdventureWorks2019.Person.StateProvince.Name,&#xA;	AdventureWorks2019.Person.StateProvince.TerritoryID,&#xA;	AdventureWorks2019.Person.StateProvince.IsOnlyStateProvinceFlag &#xA;from AdventureWorks2019.Person.StateProvince" type="Int32" />
+            <Field name="StateProvinceCode" size="3" source="File: aka:Adventure|||select AdventureWorks2019.Person.StateProvince.StateProvinceID,&#xA;	AdventureWorks2019.Person.StateProvince.StateProvinceCode,&#xA;	AdventureWorks2019.Person.StateProvince.Name,&#xA;	AdventureWorks2019.Person.StateProvince.TerritoryID,&#xA;	AdventureWorks2019.Person.StateProvince.IsOnlyStateProvinceFlag &#xA;from AdventureWorks2019.Person.StateProvince" type="WString" />
+            <Field name="Name" size="50" source="File: aka:Adventure|||select AdventureWorks2019.Person.StateProvince.StateProvinceID,&#xA;	AdventureWorks2019.Person.StateProvince.StateProvinceCode,&#xA;	AdventureWorks2019.Person.StateProvince.Name,&#xA;	AdventureWorks2019.Person.StateProvince.TerritoryID,&#xA;	AdventureWorks2019.Person.StateProvince.IsOnlyStateProvinceFlag &#xA;from AdventureWorks2019.Person.StateProvince" type="V_WString" />
+            <Field name="TerritoryID" source="File: aka:Adventure|||select AdventureWorks2019.Person.StateProvince.StateProvinceID,&#xA;	AdventureWorks2019.Person.StateProvince.StateProvinceCode,&#xA;	AdventureWorks2019.Person.StateProvince.Name,&#xA;	AdventureWorks2019.Person.StateProvince.TerritoryID,&#xA;	AdventureWorks2019.Person.StateProvince.IsOnlyStateProvinceFlag &#xA;from AdventureWorks2019.Person.StateProvince" type="Int32" />
+            <Field name="IsOnlyStateProvinceFlag" source="File: aka:Adventure|||select AdventureWorks2019.Person.StateProvince.StateProvinceID,&#xA;	AdventureWorks2019.Person.StateProvince.StateProvinceCode,&#xA;	AdventureWorks2019.Person.StateProvince.Name,&#xA;	AdventureWorks2019.Person.StateProvince.TerritoryID,&#xA;	AdventureWorks2019.Person.StateProvince.IsOnlyStateProvinceFlag &#xA;from AdventureWorks2019.Person.StateProvince" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="StateProvinceID" selected="True" />
+            <SelectField field="StateProvinceCode" selected="True" />
+            <SelectField field="Name" selected="True" />
+            <SelectField field="TerritoryID" selected="True" />
+            <SelectField field="IsOnlyStateProvinceFlag" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="330" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sreep\AppData\Local\Temp\Engine_5116_caa5d48c2d0a49ef8a6f9643fcba6903_\Engine_15700_3bc41a7c96b4452ebfc3d0b7576b4156_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="318" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:Adventure|||Dim_States</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Overwrite</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Adventure
+Query=Dim_States</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Dim_StatesPDW</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="136ffba7-95e3-434e-ba1a-4f300eeeb18f" />
+      <Telemetry>
+        <PreviousWorkflowId value="88478920-f238-4eda-a1a6-df23e8d43adf" />
+        <OriginWorkflowId value="88478920-f238-4eda-a1a6-df23e8d43adf" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

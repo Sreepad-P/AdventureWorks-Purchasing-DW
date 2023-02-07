@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:Adventure|||select AdventureWorksDW2019.dbo.DimEmployee.EmployeeKey,
+	AdventureWorksDW2019.dbo.DimEmployee.FirstName,
+	AdventureWorksDW2019.dbo.DimEmployee.LastName,
+	AdventureWorksDW2019.dbo.DimEmployee.Title,
+	AdventureWorksDW2019.dbo.DimEmployee.EmailAddress,
+	AdventureWorksDW2019.dbo.DimEmployee.Phone,
+	AdventureWorksDW2019.dbo.DimEmployee.MaritalStatus,
+	AdventureWorksDW2019.dbo.DimEmployee.Gender,
+	AdventureWorksDW2019.dbo.DimEmployee.DepartmentName 
+from AdventureWorksDW2019.dbo.DimEmployee</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Adventure
+Query=select AdventureWorksDW2019....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="EmployeeKey" source="File: aka:Adventure|||select AdventureWorksDW2019.dbo.DimEmployee.EmployeeKey,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.FirstName,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.LastName,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Title,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.EmailAddress,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Phone,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.MaritalStatus,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Gender,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.DepartmentName &#xA;from AdventureWorksDW2019.dbo.DimEmployee" type="Int32" />
+            <Field name="FirstName" size="50" source="File: aka:Adventure|||select AdventureWorksDW2019.dbo.DimEmployee.EmployeeKey,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.FirstName,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.LastName,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Title,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.EmailAddress,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Phone,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.MaritalStatus,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Gender,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.DepartmentName &#xA;from AdventureWorksDW2019.dbo.DimEmployee" type="V_WString" />
+            <Field name="LastName" size="50" source="File: aka:Adventure|||select AdventureWorksDW2019.dbo.DimEmployee.EmployeeKey,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.FirstName,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.LastName,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Title,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.EmailAddress,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Phone,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.MaritalStatus,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Gender,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.DepartmentName &#xA;from AdventureWorksDW2019.dbo.DimEmployee" type="V_WString" />
+            <Field name="Title" size="50" source="File: aka:Adventure|||select AdventureWorksDW2019.dbo.DimEmployee.EmployeeKey,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.FirstName,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.LastName,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Title,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.EmailAddress,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Phone,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.MaritalStatus,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Gender,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.DepartmentName &#xA;from AdventureWorksDW2019.dbo.DimEmployee" type="V_WString" />
+            <Field name="EmailAddress" size="50" source="File: aka:Adventure|||select AdventureWorksDW2019.dbo.DimEmployee.EmployeeKey,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.FirstName,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.LastName,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Title,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.EmailAddress,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Phone,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.MaritalStatus,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Gender,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.DepartmentName &#xA;from AdventureWorksDW2019.dbo.DimEmployee" type="V_WString" />
+            <Field name="Phone" size="25" source="File: aka:Adventure|||select AdventureWorksDW2019.dbo.DimEmployee.EmployeeKey,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.FirstName,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.LastName,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Title,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.EmailAddress,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Phone,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.MaritalStatus,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Gender,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.DepartmentName &#xA;from AdventureWorksDW2019.dbo.DimEmployee" type="V_WString" />
+            <Field name="MaritalStatus" size="1" source="File: aka:Adventure|||select AdventureWorksDW2019.dbo.DimEmployee.EmployeeKey,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.FirstName,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.LastName,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Title,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.EmailAddress,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Phone,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.MaritalStatus,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Gender,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.DepartmentName &#xA;from AdventureWorksDW2019.dbo.DimEmployee" type="WString" />
+            <Field name="Gender" size="1" source="File: aka:Adventure|||select AdventureWorksDW2019.dbo.DimEmployee.EmployeeKey,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.FirstName,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.LastName,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Title,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.EmailAddress,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Phone,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.MaritalStatus,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Gender,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.DepartmentName &#xA;from AdventureWorksDW2019.dbo.DimEmployee" type="WString" />
+            <Field name="DepartmentName" size="50" source="File: aka:Adventure|||select AdventureWorksDW2019.dbo.DimEmployee.EmployeeKey,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.FirstName,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.LastName,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Title,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.EmailAddress,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Phone,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.MaritalStatus,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.Gender,&#xA;	AdventureWorksDW2019.dbo.DimEmployee.DepartmentName &#xA;from AdventureWorksDW2019.dbo.DimEmployee" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="222" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[DI_CreateDate = DateTimeNow()
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="342" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="EmployeeKey" selected="True" />
+            <SelectField field="FirstName" selected="True" />
+            <SelectField field="LastName" selected="True" />
+            <SelectField field="Title" selected="True" />
+            <SelectField field="EmailAddress" selected="True" />
+            <SelectField field="Phone" selected="True" />
+            <SelectField field="MaritalStatus" selected="True" />
+            <SelectField field="Gender" selected="True" />
+            <SelectField field="DepartmentName" selected="True" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="450" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sreep\AppData\Local\Temp\Engine_19752_a65c810d6e5544589df672360005128b_\Engine_18836_2b116dd8008242d48b785c0f5040a0c2_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="486" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:Adventure|||Dim_Employee</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Create</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Adventure
+Query=Dim_Employee</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Dim_Employee</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="17dc9817-55e6-45c2-899a-a6b7314a533d" />
+      <Telemetry>
+        <PreviousWorkflowId value="32e3dee5-d641-4301-8977-525f79774545" />
+        <OriginWorkflowId value="32e3dee5-d641-4301-8977-525f79774545" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

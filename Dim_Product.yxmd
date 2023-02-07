@@ -1,0 +1,772 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:AdventureWorks|||"AdventureWorks2019"."Production"."Product"</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AdventureWorks
+Query="AdventureWorks2019"."Produc...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProductID" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="Int32" />
+            <Field name="Name" size="50" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="V_WString" />
+            <Field name="ProductNumber" size="25" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="V_WString" />
+            <Field name="MakeFlag" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="Bool" />
+            <Field name="FinishedGoodsFlag" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="Bool" />
+            <Field name="Color" size="15" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="V_WString" />
+            <Field name="SafetyStockLevel" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="Int16" />
+            <Field name="ReorderPoint" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="Int16" />
+            <Field name="StandardCost" scale="4" size="21" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="FixedDecimal" />
+            <Field name="ListPrice" scale="4" size="21" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="FixedDecimal" />
+            <Field name="Size" size="5" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="V_WString" />
+            <Field name="SizeUnitMeasureCode" size="3" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="WString" />
+            <Field name="WeightUnitMeasureCode" size="3" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="WString" />
+            <Field name="Weight" scale="2" size="10" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="FixedDecimal" />
+            <Field name="DaysToManufacture" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="Int32" />
+            <Field name="ProductLine" size="2" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="WString" />
+            <Field name="Class" size="2" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="WString" />
+            <Field name="Style" size="2" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="WString" />
+            <Field name="ProductSubcategoryID" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="Int32" />
+            <Field name="ProductModelID" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="Int32" />
+            <Field name="SellStartDate" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="DateTime" />
+            <Field name="SellEndDate" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="DateTime" />
+            <Field name="DiscontinuedDate" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="DateTime" />
+            <Field name="rowguid" size="36" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="V_String" />
+            <Field name="ModifiedDate" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;Product&quot;" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="246" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Product_SK" selected="True" />
+            <SelectField field="ProductID" selected="True" />
+            <SelectField field="ProductNumber" selected="True" />
+            <SelectField field="Name" selected="True" />
+            <SelectField field="StandardCost" selected="True" />
+            <SelectField field="ListPrice" selected="True" />
+            <SelectField field="FinishedGoodsFlag" selected="True" />
+            <SelectField field="ProductLine" selected="True" />
+            <SelectField field="ProductSubcategoryID" selected="True" />
+            <SelectField field="ProductModelID" selected="True" />
+            <SelectField field="MakeFlag" selected="False" />
+            <SelectField field="Color" selected="False" />
+            <SelectField field="SafetyStockLevel" selected="False" />
+            <SelectField field="ReorderPoint" selected="False" />
+            <SelectField field="Size" selected="False" />
+            <SelectField field="SizeUnitMeasureCode" selected="False" />
+            <SelectField field="WeightUnitMeasureCode" selected="False" />
+            <SelectField field="Weight" selected="False" />
+            <SelectField field="DaysToManufacture" selected="False" />
+            <SelectField field="Class" selected="False" />
+            <SelectField field="Style" selected="False" />
+            <SelectField field="SellStartDate" selected="False" />
+            <SelectField field="SellEndDate" selected="False" />
+            <SelectField field="DiscontinuedDate" selected="False" />
+            <SelectField field="rowguid" selected="False" />
+            <SelectField field="ModifiedDate" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="150" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>Product_SK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="378" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ProductSubcategoryID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ProductSubcategoryID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Product_SK" selected="True" input="Left_" />
+                <SelectField field="Left_ProductID" selected="True" input="Left_" />
+                <SelectField field="Left_ProductNumber" selected="True" input="Left_" />
+                <SelectField field="Left_Name" selected="True" input="Left_" />
+                <SelectField field="Left_StandardCost" selected="True" input="Left_" />
+                <SelectField field="Left_ListPrice" selected="True" input="Left_" />
+                <SelectField field="Left_FinishedGoodsFlag" selected="True" input="Left_" />
+                <SelectField field="Left_ProductLine" selected="True" input="Left_" />
+                <SelectField field="Left_ProductSubcategoryID" selected="True" input="Left_" />
+                <SelectField field="Right_Name" selected="True" rename="ProductSubcategoryName" input="Right_" />
+                <SelectField field="Right_ProductCategoryID" selected="True" input="Right_" />
+                <SelectField field="Left_ProductModelID" selected="True" input="Left_" />
+                <SelectField field="Right_ProductSubcategoryID" selected="False" rename="Right_ProductSubcategoryID" input="Right_" />
+                <SelectField field="Right_rowguid" selected="False" input="Right_" />
+                <SelectField field="Right_ModifiedDate" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="246" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:AdventureWorks|||"AdventureWorks2019"."Production"."ProductSubcategory"</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AdventureWorks
+Query="AdventureWorks2019"."Produc...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProductSubcategoryID" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;ProductSubcategory&quot;" type="Int32" />
+            <Field name="ProductCategoryID" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;ProductSubcategory&quot;" type="Int32" />
+            <Field name="Name" size="50" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;ProductSubcategory&quot;" type="V_WString" />
+            <Field name="rowguid" size="36" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;ProductSubcategory&quot;" type="V_String" />
+            <Field name="ModifiedDate" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;ProductSubcategory&quot;" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="498" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="642" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ProductCategoryID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ProductCategoryID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Product_SK" selected="True" input="Left_" />
+                <SelectField field="Left_ProductID" selected="True" input="Left_" />
+                <SelectField field="Left_ProductNumber" selected="True" input="Left_" />
+                <SelectField field="Left_Name" selected="True" input="Left_" />
+                <SelectField field="Left_StandardCost" selected="True" input="Left_" />
+                <SelectField field="Left_ListPrice" selected="True" input="Left_" />
+                <SelectField field="Left_FinishedGoodsFlag" selected="True" input="Left_" />
+                <SelectField field="Left_ProductLine" selected="True" input="Left_" />
+                <SelectField field="Left_ProductSubcategoryID" selected="True" input="Left_" />
+                <SelectField field="Left_ProductSubcategoryName" selected="True" input="Left_" />
+                <SelectField field="Left_ProductCategoryID" selected="True" input="Left_" />
+                <SelectField field="Right_Name" selected="True" rename="ProductCategoryName" input="Right_" />
+                <SelectField field="Left_ProductModelID" selected="True" input="Left_" />
+                <SelectField field="Right_ProductCategoryID" selected="False" rename="Right_ProductCategoryID" input="Right_" />
+                <SelectField field="Right_rowguid" selected="False" input="Right_" />
+                <SelectField field="Right_ModifiedDate" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="498" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:AdventureWorks|||"AdventureWorks2019"."Production"."ProductCategory"</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AdventureWorks
+Query="AdventureWorks2019"."Produc...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProductCategoryID" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;ProductCategory&quot;" type="Int32" />
+            <Field name="Name" size="50" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;ProductCategory&quot;" type="V_WString" />
+            <Field name="rowguid" size="36" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;ProductCategory&quot;" type="V_String" />
+            <Field name="ModifiedDate" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;ProductCategory&quot;" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="786" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="906" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ProductModelID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ProductModelID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Product_SK" selected="True" input="Left_" />
+                <SelectField field="Left_ProductID" selected="True" input="Left_" />
+                <SelectField field="Left_ProductNumber" selected="True" input="Left_" />
+                <SelectField field="Left_Name" selected="True" input="Left_" />
+                <SelectField field="Left_StandardCost" selected="True" input="Left_" />
+                <SelectField field="Left_ListPrice" selected="True" input="Left_" />
+                <SelectField field="Left_FinishedGoodsFlag" selected="True" input="Left_" />
+                <SelectField field="Left_ProductLine" selected="True" input="Left_" />
+                <SelectField field="Left_ProductSubcategoryID" selected="True" input="Left_" />
+                <SelectField field="Left_ProductSubcategoryName" selected="True" input="Left_" />
+                <SelectField field="Left_ProductCategoryID" selected="True" input="Left_" />
+                <SelectField field="Left_ProductCategoryName" selected="True" input="Left_" />
+                <SelectField field="Left_ProductModelID" selected="True" input="Left_" />
+                <SelectField field="Right_ProductModelID" selected="False" rename="Right_ProductModelID" input="Right_" />
+                <SelectField field="Right_Name" selected="True" rename="ProductModelName" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="786" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:AdventureWorks|||"AdventureWorks2019"."Production"."ProductModel"</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AdventureWorks
+Query="AdventureWorks2019"."Produc...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProductModelID" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;ProductModel&quot;" type="Int32" />
+            <Field name="Name" size="50" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;ProductModel&quot;" type="V_WString" />
+            <Field name="CatalogDescription" size="16777216" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;ProductModel&quot;" type="V_String" />
+            <Field name="Instructions" size="16777216" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;ProductModel&quot;" type="V_String" />
+            <Field name="rowguid" size="36" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;ProductModel&quot;" type="V_String" />
+            <Field name="ModifiedDate" source="File: aka:AdventureWorks|||&quot;AdventureWorks2019&quot;.&quot;Production&quot;.&quot;ProductModel&quot;" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1050" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1146" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Engine.WorkflowFileName]" field="SOR_ID" size="40" type="V_WString" />
+            <FormulaField expression="DateTimeToday()" field="DI_Create_Date" size="19" type="DateTime" />
+            <FormulaField expression="IF IsEmpty([ProductLine]) THEN &quot;NA&quot; ELSE [ProductLine] ENDIF" field="ProductLine" size="2" type="WString" />
+            <FormulaField expression="IF IsEmpty([ProductSubcategoryID]) THEN 0 ELSE [ProductSubcategoryID] ENDIF" field="ProductSubcategoryID" size="4" type="Int32" />
+            <FormulaField expression="IF IsEmpty([ProductSubcategoryName]) THEN &quot;NA&quot; ELSE [ProductSubcategoryName] ENDIF" field="ProductSubcategoryName" size="50" type="V_WString" />
+            <FormulaField expression="IF IsEmpty([ProductCategoryID]) THEN 0 ELSE [ProductCategoryID] ENDIF" field="ProductCategoryID" size="4" type="Int32" />
+            <FormulaField expression="IF IsEmpty([ProductCategoryName]) THEN &quot;NA&quot; ELSE [ProductCategoryName] ENDIF" field="ProductCategoryName" size="50" type="V_WString" />
+            <FormulaField expression="IF IsEmpty([ProductModelID]) THEN 0 ELSE [ProductModelID] ENDIF" field="ProductModelID" size="4" type="Int32" />
+            <FormulaField expression="IF IsEmpty([ProductModelName]) THEN &quot;NA&quot; ELSE [ProductModelName] ENDIF" field="ProductModelName" size="50" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>SOR_ID = [Engine.WorkflowFileName]
+DI_Create_Date = DateTimeToday()
+ProductLine ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1266" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Product_SK" selected="True" rename="ProductSK" />
+            <SelectField field="ProductID" selected="True" />
+            <SelectField field="ProductNumber" selected="True" type="String" size="25" />
+            <SelectField field="Name" selected="True" type="String" size="50" />
+            <SelectField field="StandardCost" selected="True" type="Float" size="4" />
+            <SelectField field="ListPrice" selected="True" type="Float" size="4" />
+            <SelectField field="FinishedGoodsFlag" selected="True" type="Int32" size="4" />
+            <SelectField field="ProductLine" selected="True" type="String" size="2" />
+            <SelectField field="ProductSubcategoryID" selected="True" />
+            <SelectField field="ProductSubcategoryName" selected="True" type="String" size="50" />
+            <SelectField field="ProductCategoryID" selected="True" />
+            <SelectField field="ProductCategoryName" selected="True" type="String" size="50" />
+            <SelectField field="ProductModelID" selected="True" />
+            <SelectField field="ProductModelName" selected="True" type="String" size="50" />
+            <SelectField field="SOR_ID" selected="False" type="String" size="40" />
+            <SelectField field="SOR_Create_Date" selected="False" type="Date" size="10" />
+            <SelectField field="SOR_Modified_Date" selected="False" type="Date" size="10" />
+            <SelectField field="DI_Job_ID" selected="False" type="String" size="40" />
+            <SelectField field="DI_Create_Date" selected="True" type="Date" size="10" />
+            <SelectField field="DI_Modified_Date" selected="False" type="Date" size="10" />
+            <SelectField field="DI_Modofied_Date" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1410" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sreep\AppData\Local\Temp\Engine_15840_5eb8301ce9f84496869c9e36457c5360_\Engine_15700_f72b2af1263f4eddae9e0c3246508701_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="594" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sreep\AppData\Local\Temp\Engine_15840_5eb8301ce9f84496869c9e36457c5360_\Engine_15700_39fa0f19b49f4a5f82dcfab87102b795_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="858" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sreep\AppData\Local\Temp\Engine_15840_5eb8301ce9f84496869c9e36457c5360_\Engine_15700_5d98a04378ac48ff974009b34d74751a_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1122" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sreep\AppData\Local\Temp\Engine_15840_5eb8301ce9f84496869c9e36457c5360_\Engine_15700_6f30c559c37c45279b8db77f5cb6570d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1434" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:Adventure|||Dim_Products</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Overwrite</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Adventure
+Query=Dim_Products</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="5" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="5" Connection="Join" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="5" Connection="Left" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="8" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="8" Connection="Join" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="8" Connection="Left" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="11" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="11" Connection="Join" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="11" Connection="Left" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Dim_Product</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="41d7784a-ee5e-4644-b874-7c56bda07439" />
+      <Telemetry>
+        <PreviousWorkflowId value="0983fb65-52f3-45d8-b033-8dbe108bb801" />
+        <OriginWorkflowId value="0983fb65-52f3-45d8-b033-8dbe108bb801" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

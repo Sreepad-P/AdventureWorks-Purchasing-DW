@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:Adv|||select DimDate.DateKey,
+	DimDate.DayNumberOfMonth,
+	DimDate.DayNumberOfYear,
+	DimDate.WeekNumberOfYear,
+	DimDate.MonthNumberOfYear,
+	DimDate.CalendarQuarter,
+	DimDate.CalendarYear,
+	DimDate.FiscalQuarter,
+	DimDate.FiscalYear,
+	DimDate.DayNumberOfWeek,
+	DimDate.FullDateAlternateKey,
+	DimDate.EnglishMonthName 
+from DimDate</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Adv
+Query=select DimDate.DateKey,
+	Di...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DateKey" source="File: aka:Adv|||select DimDate.DateKey,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.EnglishMonthName &#xA;from DimDate" type="Int32" />
+            <Field name="DayNumberOfMonth" source="File: aka:Adv|||select DimDate.DateKey,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.EnglishMonthName &#xA;from DimDate" type="Int16" />
+            <Field name="DayNumberOfYear" source="File: aka:Adv|||select DimDate.DateKey,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.EnglishMonthName &#xA;from DimDate" type="Int16" />
+            <Field name="WeekNumberOfYear" source="File: aka:Adv|||select DimDate.DateKey,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.EnglishMonthName &#xA;from DimDate" type="Int16" />
+            <Field name="MonthNumberOfYear" source="File: aka:Adv|||select DimDate.DateKey,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.EnglishMonthName &#xA;from DimDate" type="Int16" />
+            <Field name="CalendarQuarter" source="File: aka:Adv|||select DimDate.DateKey,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.EnglishMonthName &#xA;from DimDate" type="Int16" />
+            <Field name="CalendarYear" source="File: aka:Adv|||select DimDate.DateKey,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.EnglishMonthName &#xA;from DimDate" type="Int16" />
+            <Field name="FiscalQuarter" source="File: aka:Adv|||select DimDate.DateKey,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.EnglishMonthName &#xA;from DimDate" type="Int16" />
+            <Field name="FiscalYear" source="File: aka:Adv|||select DimDate.DateKey,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.EnglishMonthName &#xA;from DimDate" type="Int16" />
+            <Field name="DayNumberOfWeek" source="File: aka:Adv|||select DimDate.DateKey,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.EnglishMonthName &#xA;from DimDate" type="Int16" />
+            <Field name="FullDateAlternateKey" source="File: aka:Adv|||select DimDate.DateKey,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.EnglishMonthName &#xA;from DimDate" type="Date" />
+            <Field name="EnglishMonthName" size="10" source="File: aka:Adv|||select DimDate.DateKey,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.EnglishMonthName &#xA;from DimDate" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="246" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DateSK" selected="True" />
+            <SelectField field="DateKey" selected="True" />
+            <SelectField field="DayNumberOfMonth" selected="True" type="Byte" size="1" />
+            <SelectField field="DayNumberOfYear" selected="True" />
+            <SelectField field="WeekNumberOfYear" selected="True" type="Byte" size="1" />
+            <SelectField field="MonthNumberOfYear" selected="True" type="Byte" size="1" />
+            <SelectField field="CalendarQuarter" selected="True" type="Byte" size="1" />
+            <SelectField field="CalendarYear" selected="True" />
+            <SelectField field="FiscalQuarter" selected="True" type="String" size="5" />
+            <SelectField field="FiscalYear" selected="True" type="String" size="5" />
+            <SelectField field="DayNumberOfWeek" selected="True" type="Byte" size="1" />
+            <SelectField field="FullDateAlternateKey" selected="True" type="DateTime" size="19" />
+            <SelectField field="EnglishMonthName" selected="True" type="String" size="10" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="522" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sreep\AppData\Local\Temp\Engine_15068_c30662e89ad349f18d40476f6c15e7bd_\Engine_9732_f59c395636724f24ae15bc90dd5162bf_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="522" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:Adve|||Dim_Date</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Overwrite</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Adve
+Query=Dim_Date</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[DI_CreateDate = DateTimeNow()
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="438" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DateSK" selected="True" />
+            <SelectField field="DateKey" selected="True" />
+            <SelectField field="DayNumberOfMonth" selected="True" />
+            <SelectField field="DayNumberOfYear" selected="True" />
+            <SelectField field="WeekNumberOfYear" selected="True" />
+            <SelectField field="MonthNumberOfYear" selected="True" />
+            <SelectField field="CalendarQuarter" selected="True" />
+            <SelectField field="CalendarYear" selected="True" />
+            <SelectField field="FiscalQuarter" selected="True" />
+            <SelectField field="FiscalYear" selected="True" />
+            <SelectField field="DayNumberOfWeek" selected="True" />
+            <SelectField field="FullDateAlternateKey" selected="True" />
+            <SelectField field="EnglishMonthName" selected="True" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="150" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>DateSK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Dim_Date</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="a113835a-815c-4a71-94d3-646e5baed1b1" />
+      <Telemetry>
+        <PreviousWorkflowId value="e8f12660-b088-436b-af33-69254c3ceebd" />
+        <OriginWorkflowId value="e8f12660-b088-436b-af33-69254c3ceebd" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

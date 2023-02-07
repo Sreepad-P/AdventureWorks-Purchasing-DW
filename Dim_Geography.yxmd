@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:Adventure|||select AdventureWorks2019.Person.Address.AddressID,
+	AdventureWorks2019.Person.Address.AddressLine1,
+	AdventureWorks2019.Person.Address.AddressLine2,
+	AdventureWorks2019.Person.Address.City,
+	AdventureWorks2019.Person.Address.StateProvinceID 
+from AdventureWorks2019.Person.Address</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Adventure
+Query=select AdventureWorks2019.Pe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="AddressID" source="File: aka:Adventure|||select AdventureWorks2019.Person.Address.AddressID,&#xA;	AdventureWorks2019.Person.Address.AddressLine1,&#xA;	AdventureWorks2019.Person.Address.AddressLine2,&#xA;	AdventureWorks2019.Person.Address.City,&#xA;	AdventureWorks2019.Person.Address.StateProvinceID &#xA;from AdventureWorks2019.Person.Address" type="Int32" />
+            <Field name="AddressLine1" size="60" source="File: aka:Adventure|||select AdventureWorks2019.Person.Address.AddressID,&#xA;	AdventureWorks2019.Person.Address.AddressLine1,&#xA;	AdventureWorks2019.Person.Address.AddressLine2,&#xA;	AdventureWorks2019.Person.Address.City,&#xA;	AdventureWorks2019.Person.Address.StateProvinceID &#xA;from AdventureWorks2019.Person.Address" type="V_WString" />
+            <Field name="AddressLine2" size="60" source="File: aka:Adventure|||select AdventureWorks2019.Person.Address.AddressID,&#xA;	AdventureWorks2019.Person.Address.AddressLine1,&#xA;	AdventureWorks2019.Person.Address.AddressLine2,&#xA;	AdventureWorks2019.Person.Address.City,&#xA;	AdventureWorks2019.Person.Address.StateProvinceID &#xA;from AdventureWorks2019.Person.Address" type="V_WString" />
+            <Field name="City" size="30" source="File: aka:Adventure|||select AdventureWorks2019.Person.Address.AddressID,&#xA;	AdventureWorks2019.Person.Address.AddressLine1,&#xA;	AdventureWorks2019.Person.Address.AddressLine2,&#xA;	AdventureWorks2019.Person.Address.City,&#xA;	AdventureWorks2019.Person.Address.StateProvinceID &#xA;from AdventureWorks2019.Person.Address" type="V_WString" />
+            <Field name="StateProvinceID" source="File: aka:Adventure|||select AdventureWorks2019.Person.Address.AddressID,&#xA;	AdventureWorks2019.Person.Address.AddressLine1,&#xA;	AdventureWorks2019.Person.Address.AddressLine2,&#xA;	AdventureWorks2019.Person.Address.City,&#xA;	AdventureWorks2019.Person.Address.StateProvinceID &#xA;from AdventureWorks2019.Person.Address" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="246" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Geography_SK" selected="True" />
+            <SelectField field="AddressID" selected="True" />
+            <SelectField field="AddressLine1" selected="True" />
+            <SelectField field="AddressLine2" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="StateProvinceID" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="342" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sreep\AppData\Local\Temp\Engine_11180_0f37be6892d14a6cac8af20a8b8b673c_\Engine_15700_6788220e38274a60a2aefbd08eeb48e9_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="342" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:A|||Dim_Geography</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Overwrite</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:A
+Query=Dim_Geography</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="150" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>Geography_SK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Dim_Geography</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="d9813b5a-2cef-4e86-a5ae-bf0b07662477" />
+      <Telemetry>
+        <PreviousWorkflowId value="9dd3ce9f-f30e-4e83-a1d7-e1f752ad4b16" />
+        <OriginWorkflowId value="9dd3ce9f-f30e-4e83-a1d7-e1f752ad4b16" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
